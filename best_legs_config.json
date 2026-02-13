@@ -1,0 +1,39 @@
+{
+    "SerialLeg": {
+        "name": "Serial",
+        "parameters": {
+            "L1 (S1->Knee)": 80.0,
+            "L2 (Knee->Foot)": 80.0
+        }
+    },
+    "PantographLeg": {
+        "name": "Pantógrafo (Coaxial)",
+        "parameters": {
+            "L_Thigh (S2->Knee)": 80.0,
+            "L_Crank (S2->Link)": 20.0,
+            "L_Shin (Knee->Foot)": 85.0
+        }
+    },
+    "FiveBarFrontLeg": {
+        "name": "Five-Bar (Tração Dianteira)",
+        "parameters": {
+            "L1 (S1->A)": 60.0,
+            "L2 (S2->B)": 25.0,
+            "L3 (B->C)": 65.0,
+            "L4 (A->C)": 35.0,
+            "L5 (Ext. C)": 70.0,
+            "Offset_S1_Deg": 45.0
+        }
+    },
+    "FiveBarRearLeg": {
+        "name": "Five-Bar (Tração Traseira)",
+        "parameters": {
+            "L1 (S1->A)": 30.0,
+            "L2 (A->B)": 55.0,
+            "L3 (S2->C)": 75.0,
+            "L4 (B->C)": 20.0,
+            "L5 (Ext. C)": 85.0,
+            "Offset_S1_Deg": 90.0
+        }
+    }
+}
